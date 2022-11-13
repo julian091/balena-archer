@@ -62,3 +62,4 @@ package() {
   find "${pkgdir}" -name package.json -print0 | xargs -r -0 sed -i '/_where/d'
 }
 
+#
